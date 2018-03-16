@@ -1,6 +1,20 @@
 <?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="1.0" provider-name="GeekTvPR Group">
+  <extension point="xbmc.addon.repository" name="GeekTvPR Repo">
+    <info compressed="false">https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/intrcomp/tutorial/tree/master/zips</datadir>
+    
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Summary</summary>
+    <description>Description</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="1.0" provider-name="MikkM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
