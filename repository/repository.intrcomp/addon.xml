@@ -2,6 +2,12 @@
 <addon id="repository.intrcomp" name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]" version="2.9" provider-name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]">
 	<extension point="xbmc.addon.repository" name="Intrcomp Media">
 
+		<dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/totalrevolution/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/totalrevolution/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/totalrevolution/totalrevolution/tree/master/zips</datadir>
+            </dir>
+
 	  <dir>
 			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
@@ -15,15 +21,11 @@
         <datadir zip="true">https://github.com/teamuniversal/scrapers/tree/master/_modules4all/zips/</datadir>
     </dir>
 	<dir>
-		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/tree/master/zips/</datadir>
 	</dir>
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-</dir>
+	
 		<info compressed="false">http://intrcomp.net/Plugins/addons.xml</info>
 		<checksum>http://intrcomp.net/Plugins/addons.xml.md5</checksum>
 		<datadir zip="true">http://intrcomp.net/Plugins/</datadir>
