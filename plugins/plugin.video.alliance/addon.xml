@@ -1,5 +1,5 @@
 <?xml version="0.1" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alliance" name="Alliance" version="3.4" provider-name="Alliance Group">
+<addon id="plugin.video.alliance" name="Alliance" version="3.5" provider-name="Alliance Group">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.2" />
@@ -8,9 +8,7 @@
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
-		<import addon="script.brotherhood.pairwith" version="" />
-		<import addon="plugin.video.allianceloader" version="2.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+		    <!--<import addon="script.module.web-pdb" version="1.0"/>-->
         <import addon="script.module.resolveurl" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
