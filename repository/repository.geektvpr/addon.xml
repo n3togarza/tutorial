@@ -4,6 +4,12 @@
 		<info compressed="false">https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/intrcomp/tutorial/tree/master/zips</datadir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/tree/master/zips</datadir>
+	</dir>
+
 		
 	</extension>
 	<extension point="xbmc.addon.metadata">
