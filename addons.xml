@@ -1,19 +1,28 @@
 <?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="repository.geektvpr" name="GeekTvPR Repo" version="1.0" provider-name="GeekTvPR Group">
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="1.1" provider-name="GeekTvPR Group">
   <extension point="xbmc.addon.repository" name="GeekTvPR Repo">
     <info compressed="false">https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml</info>
     <checksum>https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml.md5</checksum>
     <datadir zip="true">https://github.com/intrcomp/tutorial/tree/master/zips</datadir>
+  <dir>
+    <info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/tree/master/zips</datadir>
+  </dir>
+
     
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Summary</summary>
-    <description>Description</description>
+    <summary>Repositorio GeekTvPR Media</summary>
+    <description>GeekTvPR Media es un repositorio con el fin de facilitar la instalacion de addons que no tienen repositorios.
+    De esta manera los addons son automaticamente actualizados. Cada addon tiene su dueño. Todos los creditos de los addons son para sus creadores. Si Usted tiene un addon y no tiene un Host donde alojarlo con mucho gusto lo puede alojar en este repo si es de su interés. Me puede enviar email a intrcomp@gmail.com y con mucho gusto le ayudare. La meta de GeekTvPR Media es unir a la commnidad especialmente Latina en esta plataforma Open Source. Gracias a todos por su Apoyo</description>
     <platform>all</platform>
   </extension>
 </addon>
+
+
 
 
 </addons>
