@@ -163,6 +163,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
 <addon id="plugin.video.allianceloader"
        name="Alliance Playlist Loader"
        version="2.2"
@@ -185,8 +186,6 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-
-
   <extension point="xbmc.addon.metadata">
     <summary>Forked from livestream-pro - Needed for Alliance</summary>
     <description>
@@ -195,8 +194,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-
-
 
 
 </addons>
