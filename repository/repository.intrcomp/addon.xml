@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.intrcomp" name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]" version="2.8" provider-name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]">
 	<extension point="xbmc.addon.repository" name="Intrcomp Media">
+
 	  <dir>
-        <info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-        <checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-        <datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/MrBlamo420/Project/tree/master/zips/</datadir>
+            <hashes>false</hashes>
+			</dir>
+
+	  <dir>
+        <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/teamuniversal/scrapers/tree/master/_modules4all/zips/</datadir>
     </dir>
 	<dir>
 		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
