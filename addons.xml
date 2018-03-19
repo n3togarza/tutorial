@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="2018.03.18x"
-  name="SportsDevil"
-  provider-name="SportsDevil">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="repository.xvbmc" version="4.2"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="script.module.streamlink.base" />
-   <import addon="script.video.F4mProxy" />
-   <import addon="plugin.video.f4mTester" />
-   <!-- <import addon="script.module.livestreamer" />  *Changed-2-StreamLink* -->
-   <!-- *broken* <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> *broken* -->
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <!-- <extension point="xbmc.service" library="service/proxy_service.py" start="startup"/> *Changed-2-StreamLink* -->
-  <extension point="xbmc.service" library="service/streamlink_proxy.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different ad-financed sports streaming sites (XvBMC-NL acts only as a mirror for SportsDevil).</summary>
-    <description>Play videos of different ad-financed sports streaming sites (XvBMC-NL acts only as a mirror for SportsDevil).</description>
-    <disclaimer>SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme (XvBMC-NL acts only as a mirror for SportsDevil).</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-    <forum></forum>
-    <website></website>
-    <source></source>
-    <news></news>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.LosDuros"
        name="Los Duros"
        version="1.2"
@@ -135,18 +93,18 @@
     </extension>
 </addon>
 
-<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.4" provider-name="GeekTvPR Group">
-  <requires>
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.5" provider-name="GeekTvPR Group">
+	<requires>
             <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-  <extension point="xbmc.addon.repository" name="GeekTvPR Repo">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+	<extension point="xbmc.addon.repository" name="GeekTvPR Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
             <hashes>false</hashes>
-      </dir>
-    <dir>
+			</dir>
+		<dir>
             <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
@@ -157,27 +115,21 @@
             <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
             </dir>
         <dir>
-      <info compressed="false">https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/intrcomp/tutorial/raw/master/zips</datadir>
-      </dir>
-    <dir>
-      <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-          <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-          <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-      </dir>
-
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/basketboy1723/tutorial/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/basketboy1723/tutorial/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/basketboy1723/tutorial/raw/master/zips</datadir>
-      </dir>
-    <dir>
-          <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-          <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-          <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-      </dir>
-    <dir>
+			<info compressed="false">https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/intrcomp/tutorial/raw/master/zips</datadir>
+			</dir>
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        	<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+			</dir>	
+		<dir>
+        	<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        	<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			</dir>
+		<dir>
             <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
             <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
@@ -185,13 +137,13 @@
         </dir>
 
 
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Repositorio GeekTvPR Media</summary>
-    <description>GeekTvPR Media es un repositorio con el fin de facilitar la instalacion de addons que no tienen repositorios.
-    De esta manera los addons son automaticamente actualizados. Cada addon tiene su dueño. Todos los creditos de los addons son para sus creadores. Si Usted tiene un addon y no tiene un Host donde alojarlo con mucho gusto lo puede alojar en este repo si es de su interés. Me puede enviar email a intrcomp@gmail.com y con mucho gusto le ayudare. La meta de GeekTvPR Media es unir a la commnidad especialmente Latina en esta plataforma Open Source. Gracias a todos por su Apoyo</description>
-    <platform>all</platform>
-  </extension>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio GeekTvPR Media</summary>
+		<description>GeekTvPR Media es un repositorio con el fin de facilitar la instalacion de addons que no tienen repositorios.
+		De esta manera los addons son automaticamente actualizados. Cada addon tiene su dueño. Todos los creditos de los addons son para sus creadores. Si Usted tiene un addon y no tiene un Host donde alojarlo con mucho gusto lo puede alojar en este repo si es de su interés. Me puede enviar email a intrcomp@gmail.com y con mucho gusto le ayudare. La meta de GeekTvPR Media es unir a la commnidad especialmente Latina en esta plataforma Open Source. Gracias a todos por su Apoyo</description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.allianceloader"
